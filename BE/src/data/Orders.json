@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "food_items": [
+      {
+        "item": "Pizza",
+        "quantity": 1
+      },
+      {
+        "item": "Cold Coffee",
+        "quantity": 2
+      },
+      {
+        "item": "Gulab Jamun",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "food_items": [
+      {
+        "item": "Paneer Tikka",
+        "quantity": 1
+      },
+      {
+        "item": "Mint Mojito",
+        "quantity": 1
+      }
+    ],
+    "id": 2
+  },
+  {
+    "food_items": [
+      {
+        "item": "Naan",
+        "quantity": 1
+      },
+      {
+        "item": "Roti",
+        "quantity": 2
+      },
+      {
+        "item": "Masala Chai",
+        "quantity": 1
+      }
+    ],
+    "id": 3
+  }
+]

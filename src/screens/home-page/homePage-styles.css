@@ -1,0 +1,17 @@
+.invisible-scrollbar {
+  overflow-x: auto; /* Horizontal scroll */
+  scrollbar-width: thin; /* Firefox-specific property */
+  scrollbar-color: transparent transparent; /* Firefox-specific property */
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  height: 0px; /* Hides scrollbar in Webkit browsers by default */
+}
+
+.invisible-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Track color (hidden) */
+}
+
+.invisible-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent; /* Scrollbar thumb color (hidden) */
+}

@@ -1,0 +1,557 @@
+[
+  {
+    "restaurant_id": 1,
+    "name": "Burger King",
+    "menu": { 
+      "Burgers": [
+        {
+          "item_id": 1,
+          "item_name": "Whopper",
+          "price": 180
+        },
+        {
+          "item_id": 2,
+          "item_name": "Crispy Chicken Burger",
+          "price": 150
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veggie Burger",
+          "price": 130
+        }
+      ],
+      "Fries": [
+        {
+          "item_id": 4,
+          "item_name": "Classic Fries",
+          "price": 70
+        },
+        {
+          "item_id": 5,
+          "item_name": "Cheese Fries",
+          "price": 100
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Coca-Cola",
+          "price": 50
+        },
+        {
+          "item_id": 7,
+          "item_name": "Milkshake",
+          "price": 120
+        },
+        {
+          "item_id": 8,
+          "item_name": "Iced Tea",
+          "price": 80
+        }
+      ]
+    
+  }
+  },
+  {
+    "restaurant_id": 2,
+    "name": "KFC",
+    "menu": {
+      "Rolls": [
+        {
+          "item_id": 1,
+          "item_name": "Double Chicken Roll",
+          "price": 116
+        },
+        {
+          "item_id": 2,
+          "item_name": "Thai Spicy Chicken Roll",
+          "price": 190
+        },
+        {
+          "item_id": 3,
+          "item_name": "Indian Tandoori Chicken Roll",
+          "price": 154
+        }
+      ],
+      "Meals": [
+        {
+          "item_id": 4,
+          "item_name": "Korean Tangy Roll & Popcorn Chicken Meal",
+          "price": 299
+        },
+        {
+          "item_id": 5,
+          "item_name": "Thai Spicy Roll & Zinger Chicken Meal",
+          "price": 399
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Sprite",
+          "price": 55
+        },
+        {
+          "item_id": 7,
+          "item_name": "Chocolate Milkshake",
+          "price": 110
+        },
+        {
+          "item_id": 8,
+          "item_name": "Lemonade",
+          "price": 70
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 3,
+    "name": "Domino's",
+    "menu": {
+      "Pizzas": [
+        {
+          "item_id": 1,
+          "item_name": "Pepperoni Pizza",
+          "price": 250
+        },
+        {
+          "item_id": 2,
+          "item_name": "Margherita Pizza",
+          "price": 200
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veggie Supreme Pizza",
+          "price": 230
+        }
+      ],
+      "Sides": [
+        {
+          "item_id": 4,
+          "item_name": "Garlic Bread",
+          "price": 80
+        },
+        {
+          "item_id": 5,
+          "item_name": "Cheesy Sticks",
+          "price": 100
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Pepsi",
+          "price": 60
+        },
+        {
+          "item_id": 7,
+          "item_name": "7 Up",
+          "price": 60
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 4,
+    "name": "Subway",
+    "menu": {
+      "Subs": [
+        {
+          "item_id": 1,
+          "item_name": "Chicken Teriyaki Sub",
+          "price": 200
+        },
+        {
+          "item_id": 2,
+          "item_name": "Veggie Delight Sub",
+          "price": 180
+        },
+        {
+          "item_id": 3,
+          "item_name": "Italian BMT Sub",
+          "price": 220
+        }
+      ],
+      "Sides": [
+        {
+          "item_id": 4,
+          "item_name": "Potato Wedges",
+          "price": 90
+        },
+        {
+          "item_id": 5,
+          "item_name": "Onion Rings",
+          "price": 80
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Coke",
+          "price": 50
+        },
+        {
+          "item_id": 7,
+          "item_name": "Iced Tea",
+          "price": 70
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 5,
+    "name": "Haldiram",
+    "menu": {
+      "Snacks": [
+        {
+          "item_id": 1,
+          "item_name": "Paneer Tikka",
+          "price": 150
+        },
+        {
+          "item_id": 2,
+          "item_name": "Chole Bhature",
+          "price": 180
+        }
+      ],
+      "Sweets": [
+        {
+          "item_id": 3,
+          "item_name": "Rasgulla",
+          "price": 70
+        },
+        {
+          "item_id": 4,
+          "item_name": "Jalebi",
+          "price": 80
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 5,
+          "item_name": "Lassi",
+          "price": 60
+        },
+        {
+          "item_id": 6,
+          "item_name": "Masala Chai",
+          "price": 50
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 6,
+    "name": "Pizza Hut",
+    "menu": {
+      "Pizzas": [
+        {
+          "item_id": 1,
+          "item_name": "Veg Supreme Pizza",
+          "price": 240
+        },
+        {
+          "item_id": 2,
+          "item_name": "Pepperoni Pizza",
+          "price": 260
+        },
+        {
+          "item_id": 3,
+          "item_name": "Chicken Sausage Pizza",
+          "price": 280
+        }
+      ],
+      "Sides": [
+        {
+          "item_id": 4,
+          "item_name": "Stuffed Crust Breadsticks",
+          "price": 90
+        },
+        {
+          "item_id": 5,
+          "item_name": "Garlic Knots",
+          "price": 80
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Pepsi",
+          "price": 60
+        },
+        {
+          "item_id": 7,
+          "item_name": "Mirinda",
+          "price": 60
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 7,
+    "name": "McDonald's",
+    "menu": {
+      "Burgers": [
+        {
+          "item_id": 1,
+          "item_name": "Big Mac",
+          "price": 180
+        },
+        {
+          "item_id": 2,
+          "item_name": "McChicken",
+          "price": 160
+        },
+        {
+          "item_id": 3,
+          "item_name": "McVeggie",
+          "price": 140
+        }
+      ],
+      "Fries": [
+        {
+          "item_id": 4,
+          "item_name": "Medium Fries",
+          "price": 80
+        },
+        {
+          "item_id": 5,
+          "item_name": "Large Fries",
+          "price": 100
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Coke",
+          "price": 50
+        },
+        {
+          "item_id": 7,
+          "item_name": "McFlurry",
+          "price": 120
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 8,
+    "name": "Bikanerwala",
+    "menu": {
+      "Snacks": [
+        {
+          "item_id": 1,
+          "item_name": "Samosa",
+          "price": 40
+        },
+        {
+          "item_id": 2,
+          "item_name": "Kachori",
+          "price": 50
+        }
+      ],
+      "Sweets": [
+        {
+          "item_id": 3,
+          "item_name": "Gulab Jamun",
+          "price": 60
+        },
+        {
+          "item_id": 4,
+          "item_name": "Jalebi",
+          "price": 70
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 5,
+          "item_name": "Lassi",
+          "price": 55
+        },
+        {
+          "item_id": 6,
+          "item_name": "Masala Chai",
+          "price": 50
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 9,
+    "name": "Barbeque Nation",
+    "menu": {
+      "Grills": [
+        {
+          "item_id": 1,
+          "item_name": "Paneer Tikka",
+          "price": 250
+        },
+        {
+          "item_id": 2,
+          "item_name": "Chicken Tandoori",
+          "price": 300
+        }
+      ],
+      "Main Course": [
+        {
+          "item_id": 3,
+          "item_name": "Mutton Biryani",
+          "price": 350
+        },
+        {
+          "item_id": 4,
+          "item_name": "Butter Chicken",
+          "price": 280
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 5,
+          "item_name": "Coke",
+          "price": 60
+        },
+        {
+          "item_id": 6,
+          "item_name": "Mint Mojito",
+          "price": 90
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 10,
+    "name": "Costa Coffee",
+    "menu": {
+      "Coffees": [
+        {
+          "item_id": 1,
+          "item_name": "Latte",
+          "price": 150
+        },
+        {
+          "item_id": 2,
+          "item_name": "Cappuccino",
+          "price": 160
+        }
+      ],
+      "Snacks": [
+        {
+          "item_id": 3,
+          "item_name": "Chocolate Cake",
+          "price": 100
+        },
+        {
+          "item_id": 4,
+          "item_name": "Croissant",
+          "price": 80
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 5,
+          "item_name": "Hot Chocolate",
+          "price": 120
+        },
+        {
+          "item_id": 6,
+          "item_name": "Iced Coffee",
+          "price": 130
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 11,
+    "name": "Saravana Bhavan",
+    "menu": {
+      "South Indian": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "price": 120
+        },
+        {
+          "item_id": 2,
+          "item_name": "Idli Sambar",
+          "price": 100
+        },
+        {
+          "item_id": 3,
+          "item_name": "Vada Sambar",
+          "price": 110
+        }
+      ],
+      "Snacks": [
+        {
+          "item_id": 4,
+          "item_name": "Samosa",
+          "price": 40
+        },
+        {
+          "item_id": 5,
+          "item_name": "Pongal",
+          "price": 130
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Filter Coffee",
+          "price": 60
+        },
+        {
+          "item_id": 7,
+          "item_name": "Masala Chai",
+          "price": 50
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 12,
+    "name": "Punjab Grill",
+    "menu": {
+      "North Indian": [
+        {
+          "item_id": 1,
+          "item_name": "Butter Chicken",
+          "price": 280
+        },
+        {
+          "item_id": 2,
+          "item_name": "Paneer Tikka",
+          "price": 250
+        },
+        {
+          "item_id": 3,
+          "item_name": "Dal Makhani",
+          "price": 220
+        }
+      ],
+      "Breads": [
+        {
+          "item_id": 4,
+          "item_name": "Naan",
+          "price": 30
+        },
+        {
+          "item_id": 5,
+          "item_name": "Roti",
+          "price": 20
+        }
+      ],
+      "Beverages": [
+        {
+          "item_id": 6,
+          "item_name": "Lassi",
+          "price": 70
+        },
+        {
+          "item_id": 7,
+          "item_name": "Masala Chai",
+          "price": 60
+        }
+      ]
+    }
+  }
+]
